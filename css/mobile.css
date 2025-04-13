@@ -1,0 +1,200 @@
+
+.main {
+    background-color: var(--main);
+    padding: 8rem 3rem;
+}
+.join {
+    border-radius: 2rem 2rem 0rem 0rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: var(--white );
+}
+.join__title {
+    max-width: 27rem;
+    height: auto;
+    font-weight: 500;
+    font-size: 2.4 ;
+    color: var(--stone-600);
+    margin-bottom: 3rem;
+}
+.join__subtitle {
+    max-width: 35rem;
+    height:auto;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--stone-150);
+    margin-bottom: 3rem;
+}
+.join__text {
+    max-width: 30rem;
+    height: auto;
+    line-height: 2;
+    font-size: 1.9rem;
+    color: var(--rose-800);
+}
+.month {
+    padding: 2rem 0rem;
+    background-color: var( --stone-900);
+}
+.month__title {
+    max-width: 17rem;
+    height: auto;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.month__block {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.month__box {
+    display: flex;
+    align-items: center;
+}
+.month__span {
+    max-width: 12rem;
+    height: auto;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: var(--white);
+}
+.month__span__text {
+    max-width:12rem;
+    height: auto;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: var(--white); 
+}
+.month__text {
+    max-width: 24rem;
+    height: auto;
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+.month__button {
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+    color: var(--white);
+    padding: 1rem 4rem ;
+    border: 1rem solid var( --stone-150);
+    background-color: var(--stone-150);
+}
+.why {
+    padding: 2rem 0rem;
+    background-color: var(--brown-800);
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+.why__title {
+    max-width: 8rem;
+    height: auto;
+    font-size: 1.8rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+.why__text {
+    max-width: 20rem;
+    height: auto;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+    padding: 0 3rem;
+  }
+  
+  .join {
+    padding: 4rem;
+  }
+  
+  .join__title {
+    max-width: 37rem;
+    font-weight:700;
+    font-size: 4rem ;
+    margin-bottom: 4rem;
+  }
+
+  .join__subtitle {
+    max-width: 60rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+  .join__text {
+    max-width: 100%;
+    height: auto;
+    line-height: 1.7;
+    font-size: 2.5rem;
+  }
+
+  .menu__block{
+    display: flex;
+
+  }
+
+
+
+  .month {
+    width: 100%;
+    padding: 4rem ;
+    border-radius: 0rem 0rem 0rem 2rem
+  }
+
+  .month__title {
+    max-width: 24rem;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .month__block {
+    margin-bottom: 2rem;
+  }
+
+  .month__span {
+    font-weight: 600;
+    font-size: 4rem;
+  }
+
+  .month__text {
+    max-width: 100%;
+    height: auto;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+  .month__button {
+    padding: 2rem 4rem ;
+  }
+
+  .why {
+    width: 100%;
+    padding: 4rem ;
+    border-radius: 0rem 0rem 2rem 0rem
+  }
+
+  .why__title {
+    max-width: 24rem;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .why__text {
+    max-width: 44rem;
+    line-height: 1.3;
+    font-weight: 300;
+    font-size: 2.7rem;
+  }
+  }

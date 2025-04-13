@@ -1,0 +1,14 @@
+:root {
+    --white : #ffffff;
+    --stone-150: #b9f23d;
+    --stone-600: #16a798;
+    --stone-900: #0cb6bf;
+    --brown-800: #26e8ef;
+    --rose-800: #949093;
+    --main:#e2f9fb;
+
+    --title-font: "Young Serif", serif;
+    --main-font:  "Outfit", sans-serif;
+
+font-size: 62.5%;
+}
