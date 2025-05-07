@@ -2,71 +2,293 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Single Price Grid Component</title>
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
 </head>
 <body>
-  <main class="main">
-    <section class="join">
-      <div class="container">
-        <h1 class="join__title">Join our community</h1>
-
-        <h2 class="join__subtitle">30-day, hassle-free money back guarantee</h2>   
-  
-        <p class="join__text">Gain access to our full library of tutorials along with expert code reviews. 
-        Perfect for any developers who are serious about honing their skills.
-        </p>
-      </div>
-  
-    </section>
-<div class="menu__block">
-  <section class="month">
+  <header class="header .container">
+    
     <div class="container">
-      <h2 class="month__title"> Monthly Subscription</h2>
-
-      <div class="month__block">
-        <span class="month__span">&dollar;29 </span>
-        <div class="month__box">
-          <span class="month__span__text"> per month</span>
-        </div>
       
+      <div class="header_box">
+
+            <a class="header_link" href="#">
+              <svg class="header_svg" width="100" height="40">
+                <use href="./images/symbol-defs.svg#icon-logo"></use>
+              </svg>
+            </a>
+
+          <nav class="nav">
+
+            <ul class="nav_list">
+              
+              <li class="nav_item">
+                <a class="nav_link" href="#">About</a>
+              </li>
+      
+              <li class="nav_item">
+                <a class="nav_link" href="#">Services</a>
+              </li>
+      
+              <li class="nav_item">
+                <a class="nav_link" href="#">Projects</a>
+              </li>
+      
+            </ul>
+          </nav>
+      
+            <button class="header_btn" type="button">Contact</button>
+    
+        </div>
+
+        <div class="header_relative">
+          <h1 class="header_title">We are creatives</h1>
+        </div>
+
+      <img class="header_img .header" src="./images/desktop/image-header.jpg" alt="orange">
+    </div>
+
+  </header>
+
+
+  <main class="main">
+
+    <section class="brand">
+
+        <div class="container">
+
+        <div  class="brand_list">
+
+        
+        <div class="brand_box">
+          <div class="brand_stand">
+            <div class="brand_item">
+
+                <div class="brand_block">
+                <h2 class="brand_title">Transform your brand</h2>
+                <p class="brand_text">We are a full-service creative agency specializing in helping brands grow fast. 
+                  Engage your clients through compelling visuals that do most of the marketing for you.
+                </p>
+                
+                <div class="block">
+                  <a class="brand_link_yellow" href="#">Learn more</a>
+                </div>
+                </div>
+
+            </div>
+            <div>
+              <img src="./images/desktop/image-transform.jpg" alt="egg" width="400" height="400">
+            </div>
+            
+          </div>
+        </div>
+  
+        <div class="brand_box">
+          <div class="brand_item">
+            <div class="brand_stand_right">
+
+                <div class="brand_block">
+                <h2 class="brand_title">Stand out to the right audience</h2>
+                <p class="brand_text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+                </p>
+                
+                <div class="block">
+                <a class="brand_link_red" href="#"> Learn more</a>
+                </div>
+                </div>
+
+    
+            <div>
+            <img src="/images/desktop/image-stand-out.jpg" alt="glass" width="400" height="400">
+            </div>
+            </div>
+          </div>
+        </div>
+    
+
+          <div class="brand_box">
+          <div class="brand_item">
+
+                <div class="brand_stand">
+                <img class="brand_img" src="./images/desktop/image-photography.jpg" alt="mandarin" width="400" height="400">
+                
+                <h2 class="brand_subtitle">Photography</h2>
+                <p class="brand_small_text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+                </p>
+                </div>
+          </div>
+  
+          <div class="brand_item">
+          <div class="brand_stand">
+            <img class="brand_img" src="./images/desktop/image-graphic-design.jpg" alt="cherry" width="400" height="400">
+            
+            <h2 class="brand_subtitle">Graphic design</h2>
+            <p class="brand_small_text">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+            
+        </div>
+        </div>
+        </div>
+        
+        </div>
+        </div>
+    </section>
+
+
+    <section class="clients">
+      <div class="container">
+
+      <h2 class="clients_title">Client testimonials</h2>
+
+      <ul class="clients_list">
+
+        <li class="clients_item">
+          <img class="clients_img" src="./images/image-emily.jpg" width="40" height="40" alt="Emily R." >
+          <p class="clients_text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <div class="clients_box">
+            <span class="clients_subtitle">Emily R.</span>
+          <span class="clients_span">Marketing Director</span>
+          </div>
+        </li>
+
+        <li class="clients_item">
+          <img class="clients_img" src="./images/image-thomas.jpg"  width="40" height="40"alt="Thomas S." >
+          <p class="clients_text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <div class="clients_box">
+            <span class="clients_subtitle">Thomas S.</span>
+            <span class="clients_span">Chief Operating Officer</span>
+          </div>
+        </li>
+
+        <li class="clients_item">
+          <img class="clients_img"src="./images/image-jennie.jpg"  width="40" height="40"alt="Jennie F." >
+          <p class="clients_text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <div class="clients_box">
+            <span class="clients_subtitle">Jennie F.</span>
+            <span class="clients_span">Business Owner</span>
+          </div>
+    
+        </li>
+
+      </ul>
       </div>
+    </section>
 
 
-      <p class="month__text">Full access for less than &dollar;1 a day</p>
+    <section class="pictures">
+      <div class="container">
 
-      <button class="month__button" type="button">Sign Up</button>
+      <ul class="pictures_list">
+
+        <li class="pictures_item">
+          <img class="pictures_img" src="./images/desktop/image-gallery-milkbottles.jpg" alt="bottles" width="250" height="250">
+        </li>
+
+        <li class="pictures_item">
+          <img class="pictures_img" src="./images/desktop/image-gallery-orange.jpg" alt="orange" width="250" height="250">
+        </li>
+
+        <li class="pictures_item">
+          <img class="pictures_img" src="./images/desktop/image-gallery-cone.jpg" alt="waffles" width="250" height="250">
+        </li>
+
+        <li class="pictures_item">
+          <img class="pictures_img" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar" width="250" height="250">
+        </li>
+
+      </ul>
     </div>
-  
-  </section>
 
-  <section class="why">
-    <div class="container">
-      <h2 class="why__title">Why Us</h2>
+    </section>
 
-      <p class="why__text"> Tutorials by industry experts
-        Peer &amp; expert code review
-        Coding exercises
-        Access to our GitHub repos
-        Community forum
-        Flashcard decks
-        New videos every week
-      </p>
-    </div>
-  
-  </section>
-</div>
-   
   </main>
+
+
+  <footer class="footer">
+
+    <div class="container">
+
+    <div class="footer_box">
+
+  <div class="footer_logo">
+    <a class="footer_link" href="#">
+      <svg class="footer_svg" width="100" height="20">
+        <use href="./images/symbol-defs.svg#icon-logo"></use>
+      </svg>
+    </a>
+  </div>
+
+
+
+  <nav class="footer_nav">
+
+    <ul class="footer_nav_list">
+      
+      <li class="footer_nav_item">
+        <a class="footer_nav_link" href="#">About</a>
+      </li>
+
+      <li class="footer_nav_item">
+        <a class="footer_nav_link" href="#">Services</a>
+      </li>
+
+      <li class="footer_nav_item">
+        <a class="footer_nav_link" href="#">Projects</a>
+      </li>
+
+    </ul>
+    
+  </nav>
+
+    </div>
+  
+
+    <ul class="social_list">
+
+      <li class="social_item">
+      <a class="social_link" href="#" target="_blank">
+        <svg class="social_svg" width="20" height="20">
+          <use href="./images/symbol-defs.svg#icon-facebook"></use>
+        </svg>
+      </a>
+      </li>
+
+      <li class="social_item">
+      <a class="social_link" href="#" target="_blank">
+        <svg class="social_svg" width="20" height="20">
+          <use href="./images/symbol-defs.svg#icon-instagram"></use>
+        </svg>
+      </a>
+      </li>
+
+      <li class="social_item">
+        <a class="social_link" href="#" target="_blank">
+          <svg class="social_svg" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      
+      </li>
+
+      <li class="social_item">
+      <a class="social_link"href="#" target="_blank">
+        <svg class="social_svg" width="20" height="20">
+          <use href="./images/symbol-defs.svg#icon-pinterest"></use>
+        </svg>
+      </a>
+      </li>
+
+    </ul>
+
+  </div>
+  
+  </footer>
 
 </body>
 </html>

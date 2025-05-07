@@ -46,7 +46,7 @@ button:hover {
 }
 
 .container {
-  padding: 0 3rem;
+  padding: 0 1rem;
   max-width: 110rem;
   margin: 0 auto;
 }
@@ -62,9 +62,7 @@ button:hover {
   padding-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
-  .container {
-  padding: 0 3rem;
-}
+
 }
 
 /* 
@@ -80,6 +78,3 @@ button:hover {
   clip: rect(0 0 0 0);
   overflow: hidden;
 } */
-
-
-
